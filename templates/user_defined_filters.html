@@ -1,0 +1,26 @@
+{% load usdfilter %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>user_defined_filters</h1>
+        <hr>
+        <h2>{{usd}}</h2>
+        <h2>{{usd|swapping}}</h2>
+        <h2>{{usd|upper}}</h2>
+        <h2>{{usd|lower}}</h2>
+        <h2>{{usd|count:'h'}}</h2>
+        <h2>{{usd|counting:'ho'}}</h2>
+        <h2>{{usd|remove:'ho'}}</h2>
+    </center>
+</body>
+
+</html>
